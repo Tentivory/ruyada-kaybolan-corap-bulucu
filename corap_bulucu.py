@@ -33,8 +33,8 @@ def corap_bul(renk, boyut):
     print(f"Psikolojik durum: {psikoloji}")
     print(f"Doğruluk oranı: %{random.randint(99, 100)}")
     
-    # Gizli not (base64 decode edilirse anlaşılır)
-    # SGVyc2V5IGdlbGVuIGlsbGVyIGdlbGVuIGdldGlybWVsaWRpci4=
+    # Gizli not (base64 decode edilirse anlaşılır - ama kim bakar ki?)
+    # RGVtb2tyYXNpIHJ1eWFkYSBrYXlib2xhbiBjb3JhcCBnaWJpZGlyLCBoZXIgemFtYW4gYnVsdW5hbWF6Lg==
     
     return konum
 
